@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html xml:lang="zh-CN" lang="zh-CN">
+
+<head>
+        <link rel="canonical" href="https://freeclashn.github.io/news/article-111312.htm" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Node.js躬行记（17）——UmiJS版本升级</title>
+        <meta name="description" content="　　在2020年我刚到公司的时候，公司使用的版本还是1.0，之后为了引入微前端，迫不得已被动升级。  　　在官方文档中，有专门一页讲如何升级的，这个用户体验非常好。 　　一个清单列的非常清楚，内容不多" />
+        <link rel="icon" href="/assets/website/img/flclashnode/favicon.ico" type="image/x-icon"/>
+
+    <meta name="author" content="免费ClashN 机场订阅官网">
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://freeclashn.github.io/news/article-111312.htm" />
+    <meta property="og:site_name" content="免费ClashN 机场订阅官网" />
+    <meta property="og:title" content="Node.js躬行记（17）——UmiJS版本升级" />
+    <meta property="og:image" content="https://freeclashn.github.io/uploads/20241105-1/16e1e9ee7cf8eb74738bb86da17ef5ae.webp" />
+        <meta property="og:release_date" content="2025-05-04T09:27:52" />
+    <meta property="og:updated_time" content="2025-05-04T09:27:52" />
+        <meta property="og:description" content="　　在2020年我刚到公司的时候，公司使用的版本还是1.0，之后为了引入微前端，迫不得已被动升级。  　　在官方文档中，有专门一页讲如何升级的，这个用户体验非常好。 　　一个清单列的非常清楚，内容不多" />
+        
+    <link href="/assets/website/css/flclashnode/swiper-bundle.min.css" rel="stylesheet">
+    <link href="/assets/website/css/flclashnode/ranade-fonts.css" rel="stylesheet">
+    <link href="/assets/website/css/flclashnode/remixicon.css" rel="stylesheet">
+    <link href="/assets/website/css/flclashnode/scrollCue.css" rel="stylesheet">
+    <link href="/assets/website/css/flclashnode/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/website/css/G.css" />
+
+    <meta name="applicable-device" content="pc,mobile" />
+    <meta name="renderer" content="webkit" />
+    <meta name="force-rendering" content="webkit" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta name="robots" content="max-image-preview:large" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Node.js躬行记（17）——UmiJS版本升级">
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="dns-prefetch" href="https:/www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://www.googleadservices.com">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com">
+    <link rel="dns-prefetch" href="https://cm.g.doubleclick.net">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-X747QPK4GB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-X747QPK4GB');
+</script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3332997411212854"
+     crossorigin="anonymous"></script>
+</head>
+
+<body data-page="detail">
+        <!--  Cursor Point -->
+    <span id="mouse-follower"></span>
+    <span id="dot"></span>
+    <!--  Cursor Point -->
+    <!-- Start Navbar Area -->
+    <nav class="navbar navbar-expand-xl" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand p-0" href="/">
+                                <span>免费ClashN</span>
+                            </a>
+            <a class="navbar-toggler" data-bs-toggle="offcanvas" href="#navbarOffcanvas" role="button" aria-controls="navbarOffcanvas">
+                <span class="burger-menu">
+                    <i class="ri-menu-line"></i>
+                </span>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto">
+                                        <li class="nav-item">
+                        <a class="nav-link" href="/">
+                            首页                        </a>
+                    </li>
+                                        <li class="nav-item">
+                        <a class="nav-link" href="/free-nodes/">
+                            免费节点                        </a>
+                    </li>
+                                        <li class="nav-item">
+                        <a class="nav-link" href="/paid-subscribe/">
+                            推荐机场                        </a>
+                    </li>
+                                        <li class="nav-item">
+                        <a class="nav-link" href="/news/">
+                            新闻资讯                        </a>
+                    </li>
+                                        <li class="nav-item">
+                        <a class="nav-link" href="/client.htm">
+                            客户端                        </a>
+                    </li>
+                                    </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar Area -->
+    <!-- Start Mobile Device Navbar Area -->
+    <div class="responsive-navbar offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvas">
+        <div class="offcanvas-header">
+            <a href="/" class="logo d-inline-block">
+                Fl Clash
+            </a>
+            <button type="button" class="close-btn" data-bs-dismiss="offcanvas" aria-label="Close">
+                <i class="ri-close-line"></i>
+            </button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="accordion" id="navbarAccordion">
+                                <div class="accordion-item">
+                    <a class="accordion-link" href="/">
+                        首页                    </a>
+                </div>
+                                <div class="accordion-item">
+                    <a class="accordion-link" href="/free-nodes/">
+                        免费节点                    </a>
+                </div>
+                                <div class="accordion-item">
+                    <a class="accordion-link" href="/paid-subscribe/">
+                        推荐机场                    </a>
+                </div>
+                                <div class="accordion-item">
+                    <a class="accordion-link" href="/news/">
+                        新闻资讯                    </a>
+                </div>
+                                <div class="accordion-item">
+                    <a class="accordion-link" href="/client.htm">
+                        客户端                    </a>
+                </div>
+                            </div>
+        </div>
+    </div>
+    <!-- End Mobile Device Navbar Area -->
+
+    <!-- Inner Hero Area Start -->
+    <div class="inner-hero-area">
+        <div class="container-fluid">
+            <div class="row align-items-end">
+                <div class="col-lg-7">
+                    <div class="inner-hero-content">
+                        <h1>Node.js躬行记（17）——UmiJS版本升级</h1>
+                        <ul>
+                            <li>
+                                <a href="/">
+                                    首页
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/news/">
+                                    新闻资讯                                </a>
+                            </li>
+                            <li>
+                                正文
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="inner-page-image">
+                        <img src="/assets/website/img/flclashnode/innar-page-shape2.png" class="inner-page-image2" alt="Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Inner Hero Area End -->
+    <!-- About Area Start -->
+    <div class="about-area overflow-hidden ptb-100">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-9">
+                                    <input type="hidden" id="share-website-info" data-name="Clash Meta免费节点订阅站" data-url="https://clash-meta.github.io">
+                <div class="xcblog-blog-detail xcblog-blog-detail-defined">
+                      				  				  				<p>　　在2020年我刚到公司的时候，公司使用的版本还是1.0，之后为了引入微前端，迫不得已被动升级。</p> </h1> <p>　　在官方文档中，有专门一页讲<span style="color: rgba(51, 102, 255, 1)"><span style="color: rgba(51, 102, 255, 1)">如何升级</span></span>的，这个用户体验非常好。</p> <p>　　一个清单列的非常清楚，内容不多，让我信心大增。并且自己之前也曽依托 umi 2.0开源过<span style="color: rgba(51, 102, 255, 1)"><span style="color: rgba(51, 102, 255, 1)">一套系统</span></span>。</p> <p>　　所以在实际操作中，升级遇到的阻力没有我想象中的那么大，但期间还是遇到了些难缠的问题，诸如页面空白，文件不存在等。</p> <p>　　具体的改造其实就那么几步，升级和替换依赖库，更正路由配置，去除过时文件等。</p> <p>　　改造好后，自己粗略的刷刷页面，没啥问题，然后就开心地发布到预发环境。但是在生成source map文件时，报内存栈溢出。</p> <p>　　source map文件主要用于<span style="color: rgba(51, 102, 255, 1)"><span style="color: rgba(51, 102, 255, 1)">监控系统</span></span>中的代码还原，在实际使用中用的比较少，那就先暂时关闭了。</p> <p>　　不过在生产发布的时候，又会报没有source map文件，因为生产有个将文件搬移到指定位置的脚本，得把这个脚本也关闭。</p> </h1> <p>　　为了能更好的引入TypeScript，提升项目代码质量的主动升级，根据官方给出的<span style="color: rgba(51, 102, 255, 1)"><span style="color: rgba(51, 102, 255, 1)">升级文档</span></span>进行了改造。</p> <p><span style="font-size: 16px"><strong>1）router改造</strong></span></p> <p>　　原先 component 中的路径可以包含斜杠，现在不行，因为&nbsp;Recommend 目录中没有默认的 index.js 文件。</p> <div class="cnblogs_code"> <pre><span style="color: rgba(0, 0, 0, 1)">{   path:</span>'/video/recommend'<span style="color: rgba(0, 0, 0, 1)">,   exact:</span><span style="color: rgba(0, 0, 255, 1)">true</span><span style="color: rgba(0, 0, 0, 1)">,   component:</span>'video/Recommend/'<span style="color: rgba(0, 0, 0, 1)">, } 改成 {   path:</span>'/video/recommend'<span style="color: rgba(0, 0, 0, 1)">,   exact:</span><span style="color: rgba(0, 0, 255, 1)">true</span><span style="color: rgba(0, 0, 0, 1)">,   component:</span>'video/Recommend'<span style="color: rgba(0, 0, 0, 1)">, }</span></pre> </div> <p><span style="font-size: 16px"><strong>2）model.js验证</strong></span></p> <p>　　默认会做 model 文件的验证，但是我有个文件中包含 jsx 代码，导致无法验证通过，会报解析错误。</p> <div class="cnblogs_code"> <pre>Dva model src/models/playViewer.js parse failed, SyntaxError: Unexpected token, expected "," (71:20)</pre> </div> <p>　　后面就在 .umirc.js 配置文件中取消了验证，skipModelValidate 设置为 true。</p> <div class="cnblogs_code"> <pre>export<span style="color: rgba(0, 0, 255, 1)">default</span><span style="color: rgba(0, 0, 0, 1)"> {   antd: {},   dva: {</span><span style="color: rgba(0, 128, 0, 1)">//</span><span style="color: rgba(0, 128, 0, 1)"> 启用引入dva</span>     skipModelValidate:<span style="color: rgba(0, 0, 255, 1)">true</span><span style="color: rgba(0, 128, 0, 1)">//</span><span style="color: rgba(0, 128, 0, 1)">跳过 model 验证</span><span style="color: rgba(0, 0, 0, 1)">  }, }</span></pre> </div> <p><span style="font-size: 16px"><strong>3）namespace不唯一</strong></span></p> <p>　　项目构建的时候，报model的namespace重名的错误，因为 pages 子目录中的文件名都叫model.js。</p> <div class="cnblogs_code"> <pre><span style="color: rgba(0, 0, 0, 1)">pages     foo</span>/model.js     bar/model.js</pre> </div> <p>　　下面是具体的报错信息，查了框架的issue，发现还蛮多人有<span style="color: rgba(51, 102, 255, 1)"><span style="color: rgba(51, 102, 255, 1)">这问题</span></span>的，但是我都升级到最新版本还是有问题。</p> <div class="cnblogs_code"> <pre>./src/.umi/plugin-dva/<span style="color: rgba(0, 0, 0, 1)">dva.ts [app.model] namespace should be unique app.model({ namespace:</span>'model'<span style="color: rgba(0, 0, 0, 1)">, ...ModelModel29 }); app.model({ namespace:</span>'model'<span style="color: rgba(0, 0, 0, 1)">, ...ModelModel30 }); app.model({ namespace:</span>'model'<span style="color: rgba(0, 0, 0, 1)">, ...ModelModel31 }); app.model({ namespace:</span>'model', ...ModelModel32 });</pre> </div> <p>　　后面发现将文件改个名字，然后放到models目录中，就不会唯一了。但是有300多张页面，都得手动处理。</p> <div class="cnblogs_code"> <pre><span style="color: rgba(0, 0, 0, 1)">pages     foo</span>/<span style="color: rgba(0, 0, 0, 1)">         models</span>/login.js     bar/model.js</pre> </div> <p>　　没有找到更有效更直接的方法，只能用这种笨办法了，弄了好几个小时。</p> <p>　　中途也发现，很多页面已经废弃了，马上决定移除。</p> <p><span style="font-size: 16px"><strong>4）Link组件</strong></span></p> <p>　　之前Link组件都是从react-router-dom导入的，但现在会报错：Error: Invariant failed: You should not use &lt;Link&gt; outside a &lt;Router&gt;。</p> <p>　　这个好弄，只要换个库就行。</p> <div class="cnblogs_code"> <pre>- import { Link } from 'react-router-dom'<span style="color: rgba(0, 0, 0, 1)">;</span>+ import { Link } from 'umi';</pre> </div> <p><span style="font-size: 16px"><strong>5）警告</strong></span></p> <p>　　有个比较奇怪的警告，会一直提示，网上很多重复的帖子就是去本地 dva 库替换某条语句，还有就是升级到 2.6 版本。</p> <div class="cnblogs_code"> <pre>Warning: Please use `require("history").createHashHistory` instead of `require("history/createHashHistory")`. Support<span style="color: rgba(0, 0, 255, 1)">for</span> the latter will be removed<span style="color: rgba(0, 0, 255, 1)">in</span> the next major release.</pre> </div> <p>　　我升级到最新后，还是会有这个提示，就看源码，发现注释掉&nbsp;dva/router.js 的第一句就行了，不过发到线上后，就不会有这个警告了。</p> <div class="cnblogs_code"> <pre>require('./warnAboutDeprecatedCJSRequire.js')('router'<span style="color: rgba(0, 0, 0, 1)">); module.exports</span>= require('react-router-dom'<span style="color: rgba(0, 0, 0, 1)">); module.exports.routerRedux</span>= require('connected-react-router');</pre> </div> 			                </div>
+                <div class="clearfix"></div>
+                <div class="col-md-12 mt-5">
+                                        <p>上一个：<a href="/news/article-110491.htm">被打过疫苗的宠物抓伤人需要打针吗（被打过疫苗的宠物抓伤人需要打针吗多少钱）</a></p>
+                                        <p>下一个：<a href="/news/article-111315.htm">华畜兽药有限公司官网招聘（华畜兽药厂家地址在哪里）</a></p>
+                                    </div>
+                                </div>
+                <div class="col-md-3">
+                    <div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">热门文章</h3>
+    </div>
+    <div class="panel-body">
+        <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
+                        <li class="py-2"><a href="/news/article-107963.htm" title="宠物粮食专卖店在哪里啊 宠物粮食专卖店在哪里啊多少钱">宠物粮食专卖店在哪里啊 宠物粮食专卖店在哪里啊多少钱</a></li>
+                        <li class="py-2"><a href="/news/article-108789.htm" title="动物防疫站周末休息吗（动物疫病预防控制中心周末上班吗）">动物防疫站周末休息吗（动物疫病预防控制中心周末上班吗）</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-5-6-free-node-subscribe.htm" title="「5月6日」最高速度21.5M/S，2025年V2ray/Clash/Shadowrocket/SSR每天更新免费节点订阅链接">「5月6日」最高速度21.5M/S，2025年V2ray/Clash/Shadowrocket/SSR每天更新免费节点订阅链接</a></li>
+                        <li class="py-2"><a href="/news/article-106113.htm" title="静态网页轻松加载动态数据，让HTML开发更轻松">静态网页轻松加载动态数据，让HTML开发更轻松</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-4-20-node-share.htm" title="「4月20日」最高速度18.6M/S，2025年V2ray/SSR/Shadowrocket/Clash每天更新免费节点订阅链接">「4月20日」最高速度18.6M/S，2025年V2ray/SSR/Shadowrocket/Clash每天更新免费节点订阅链接</a></li>
+                        <li class="py-2"><a href="/news/article-108790.htm" title="动物疫苗批号查询网站官网入口查询 动物疫苗批号查询网站官网入口查询">动物疫苗批号查询网站官网入口查询 动物疫苗批号查询网站官网入口查询</a></li>
+                        <li class="py-2"><a href="/news/article-103782.htm" title="我所在的城市有一家宠物医院英语怎么说 我所在的城市有一家宠物医院英语怎么说">我所在的城市有一家宠物医院英语怎么说 我所在的城市有一家宠物医院英语怎么说</a></li>
+                        <li class="py-2"><a href="/news/article-103049.htm" title="通俗易懂：窗口函数案例详解">通俗易懂：窗口函数案例详解</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-5-4-free-high-speed-nodes.htm" title="「5月4日」最高速度19.4M/S，2025年SSR/Shadowrocket/Clash/V2ray每天更新免费节点订阅链接">「5月4日」最高速度19.4M/S，2025年SSR/Shadowrocket/Clash/V2ray每天更新免费节点订阅链接</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-5-2-clash-v2ray-ss-ssr.htm" title="「5月2日」最高速度18.8M/S，2025年Shadowrocket/V2ray/SSR/Clash每天更新免费节点订阅链接">「5月2日」最高速度18.8M/S，2025年Shadowrocket/V2ray/SSR/Clash每天更新免费节点订阅链接</a></li>
+                    </ul>
+    </div>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">归纳</h3>
+    </div>
+    <div class="panel-body">
+        <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
+                        <li class="py-2">
+                <h4><span class="badge" style="float: right;">15</span> <a href="/date/2025-05/" title="2025-05 归档">2025-05</a></h4>
+            </li>
+                        <li class="py-2">
+                <h4><span class="badge" style="float: right;">35</span> <a href="/date/2025-04/" title="2025-04 归档">2025-04</a></h4>
+            </li>
+                    </ul>
+    </div>
+</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About Area End -->
+        <!-- Footer Area Start -->
+    <div class="footer-area">
+        <div class="container-fluid">
+            <div class="row align-items-center g-4 justify-content-center">
+                <div class="col-lg-6 col-xxl-2">
+                    <div class="footer-widget text-center middle-widget">
+                                            <p>
+                                                <a href="/">首页</a> |
+                                                <a href="/free-nodes/">免费节点</a> |
+                                                <a href="/paid-subscribe/">推荐机场</a> |
+                                                <a href="/news/">新闻资讯</a> |
+                                                <a href="/client.htm">客户端</a> |
+                                                <a href="/about-us.htm">关于我们</a> |
+                        <a href="/disclaimer.htm">免责申明</a> |
+                        <a href="/privacy.htm">隐私申明</a> |
+                        <a href="/sitemap.xml">网站地图</a>
+                    </p>
+                        <p>
+                            <a href="/">免费ClashN 机场订阅官网</a> 版权所有 Powered by WordPress
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Area End -->
+    <!-- Back to Top Start-->
+    <button type="button" id="backtotop" class="position-fixed back-to-top-btn text-center border-0 p-0">
+        <i class="ri-arrow-up-line"></i>
+    </button>
+    <!-- Back to Top End -->
+    <script src="/assets/website/js/frontend/flclashnode/jquery.min.js"></script>
+    <script src="/assets/website/js/frontend/flclashnode/bootstrap.bundle.min.js"></script>
+    <script src="/assets/website/js/frontend/flclashnode/swiper-bundle.min.js"></script>
+    <script src="/assets/website/js/frontend/flclashnode/smoothscroll.min.js"></script>
+    <script src="/assets/website/js/frontend/flclashnode/scrollCue.min.js"></script>
+    <script src="/assets/website/js/frontend/flclashnode/fslightbox.js"></script>
+    <script src="/assets/website/js/frontend/flclashnode/custom.js"></script>
+    <script src="https://www.freeclashnode.com/assets/js/frontend/invite-url.js"></script>
+    <script src="/assets/website/js/frontend/G.js"></script>
+</body>
+
+</html>
