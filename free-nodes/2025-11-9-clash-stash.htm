@@ -341,24 +341,9 @@ V2Ray是开源免费软件，但使用谷歌云服务器需支付相应的租金
         支持。Surfboard 可通过策略组和规则文件将不同应用流量分配到指定节点，保证游戏、视频和浏览器流量走最优节点，提高访问速度和网络稳定性。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>如何在 Windows 上安装 Clash for Windows？</h5></div>
-    <div class="panel-body">
-        在 Windows 上安装 Clash for Windows 十分简单。只需前往官方 GitHub 页面下载最新版安装包，运行安装程序后导入订阅链接或配置文件即可。安装完成后，用户可以通过图形化界面方便地切换节点、编辑规则和控制代理模式。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Hysteria2 多路复用如何降低延迟？</h5></div>
-    <div class="panel-body">
-        多路复用允许多个短连接共享同一通道，减少握手和加密开销，降低延迟。适用于高频短连接场景，如游戏和即时通讯，提升吞吐量和网络稳定性，保证流量快速传输。<hr />    </div>
-</div>
-<div class="panel panel-default">
     <div class="panel-heading"><h5>Mellow TUN 模式与 SOCKS5 代理有什么区别？</h5></div>
     <div class="panel-body">
         TUN 模式拦截系统 IP 层流量，实现全局代理；SOCKS5 代理通常只影响指定应用。TUN 更适合全局加速，如游戏、视频和浏览器流量，提高网络稳定性和覆盖范围。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>WinXray 的多策略组有什么作用？</h5></div>
-    <div class="panel-body">
-        多策略组可以将节点按用途、延迟或地域分类，结合路由规则实现自动分流。不同类型流量可走不同节点，提升访问速度和稳定性，特别适合多应用使用场景。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Matsuri 节点延迟排序如何优化流量？</h5></div>
@@ -371,9 +356,19 @@ V2Ray是开源免费软件，但使用谷歌云服务器需支付相应的租金
         Proxy Group 可以定义多种策略，如按延迟选择、随机、轮询或手动选择节点。结合分流规则，可实现针对不同网站或应用的智能代理，提高网络体验。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>如何在手机上减少代理应用对电量的消耗？</h5></div>
+    <div class="panel-heading"><h5>如何在 Windows 上安装 Clash for Windows？</h5></div>
     <div class="panel-body">
-        关闭不必要的后台代理连接，减少实时测速或心跳频率，启用省电模式并限制流量统计与日志记录；对于常用站点设置直连策略，避免所有流量都走代理带来的持续网络负荷。<hr />    </div>
+        在 Windows 上安装 Clash for Windows 十分简单。只需前往官方 GitHub 页面下载最新版安装包，运行安装程序后导入订阅链接或配置文件即可。安装完成后，用户可以通过图形化界面方便地切换节点、编辑规则和控制代理模式。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Clash.Meta 与原版 Clash 有何不同？</h5></div>
+    <div class="panel-body">
+        Clash.Meta 是社区优化版本，支持更多传输协议，如 Hysteria、TUIC、Reality 等。它还增强了 DNS 处理逻辑和脚本分流能力，适合追求极致速度和灵活规则配置的高级用户。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>WinXray 的多策略组有什么作用？</h5></div>
+    <div class="panel-body">
+        多策略组可以将节点按用途、延迟或地域分类，结合路由规则实现自动分流。不同类型流量可走不同节点，提升访问速度和稳定性，特别适合多应用使用场景。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Nekoray 的订阅更新支持自动导入节点吗？</h5></div>
@@ -381,9 +376,14 @@ V2Ray是开源免费软件，但使用谷歌云服务器需支付相应的租金
         支持。Nekoray 可以通过订阅 URL 自动下载节点，并根据用户配置更新本地节点列表。定期更新确保节点始终可用，减少手动维护的麻烦，提高使用便利性。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Clash.Meta 与原版 Clash 有何不同？</h5></div>
+    <div class="panel-heading"><h5>如何在手机上减少代理应用对电量的消耗？</h5></div>
     <div class="panel-body">
-        Clash.Meta 是社区优化版本，支持更多传输协议，如 Hysteria、TUIC、Reality 等。它还增强了 DNS 处理逻辑和脚本分流能力，适合追求极致速度和灵活规则配置的高级用户。    </div>
+        关闭不必要的后台代理连接，减少实时测速或心跳频率，启用省电模式并限制流量统计与日志记录；对于常用站点设置直连策略，避免所有流量都走代理带来的持续网络负荷。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Hysteria2 多路复用如何降低延迟？</h5></div>
+    <div class="panel-body">
+        多路复用允许多个短连接共享同一通道，减少握手和加密开销，降低延迟。适用于高频短连接场景，如游戏和即时通讯，提升吞吐量和网络稳定性，保证流量快速传输。    </div>
 </div>
 <div class="panel panel-default mt-5">
     <div class="panel-heading">
@@ -412,16 +412,16 @@ V2Ray是开源免费软件，但使用谷歌云服务器需支付相应的租金
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/free-nodes/2025-10-11-free-node-subscribe.htm" title="Free ClashN - 10月11日18M/S|免费Shadowrocket节点/Clash节点/Singbox节点/SSR节点/V2ray节点节点推荐，V2rayC梯子购买推荐">Free ClashN - 10月11日18M/S|免费Shadowrocket节点/Clash节点/Singbox节点/SSR节点/V2ray节点节点推荐，V2rayC梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-24-clash-meta-github.htm" title="Free ClashN - 10月24日18M/S|免费Singbox节点/Clash节点/SSR节点/Shadowrocket节点/V2ray节点节点推荐，V2rayC梯子购买推荐">Free ClashN - 10月24日18M/S|免费Singbox节点/Clash节点/SSR节点/Shadowrocket节点/V2ray节点节点推荐，V2rayC梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-10-12-clash-node-github.htm" title="Free ClashN - 10月12日22.7M/S|免费Clash节点/V2ray节点/SSR节点/Shadowrocket节点/Singbox节点节点推荐，V2rayC梯子购买推荐">Free ClashN - 10月12日22.7M/S|免费Clash节点/V2ray节点/SSR节点/Shadowrocket节点/Singbox节点节点推荐，V2rayC梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-10-17-node-share.htm" title="Free ClashN - 10月17日19M/S|免费Singbox节点/Clash节点/Shadowrocket节点/SSR节点/V2ray节点节点推荐，V2rayC梯子购买推荐">Free ClashN - 10月17日19M/S|免费Singbox节点/Clash节点/Shadowrocket节点/SSR节点/V2ray节点节点推荐，V2rayC梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-10-3-free-node-subscribe.htm" title="Free ClashN - 10月3日18.6M/S|免费Clash节点/V2ray节点/Singbox节点/Shadowrocket节点/SSR节点节点推荐，V2rayC梯子购买推荐">Free ClashN - 10月3日18.6M/S|免费Clash节点/V2ray节点/Singbox节点/Shadowrocket节点/SSR节点节点推荐，V2rayC梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-10-25-clash-verge-rev-windows.htm" title="Free ClashN - 10月25日22.1M/S|免费V2ray节点/SSR节点/Singbox节点/Shadowrocket节点/Clash节点节点推荐，V2rayC梯子购买推荐">Free ClashN - 10月25日22.1M/S|免费V2ray节点/SSR节点/Singbox节点/Shadowrocket节点/Clash节点节点推荐，V2rayC梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-3-clash-node-daily-updates.htm" title="Free ClashN - 11月3日19.8M/S|免费SSR节点/V2ray节点/Singbox节点/Clash节点/Shadowrocket节点节点推荐，V2rayC梯子购买推荐">Free ClashN - 11月3日19.8M/S|免费SSR节点/V2ray节点/Singbox节点/Clash节点/Shadowrocket节点节点推荐，V2rayC梯子购买推荐</a></li>
                         <li class="py-2"><a href="/free-nodes/2025-10-8-clash-verge-rev-node-github.htm" title="Free ClashN - 10月8日19.9M/S|免费Shadowrocket节点/SSR节点/Clash节点/V2ray节点/Singbox节点节点推荐，V2rayC梯子购买推荐">Free ClashN - 10月8日19.9M/S|免费Shadowrocket节点/SSR节点/Clash节点/V2ray节点/Singbox节点节点推荐，V2rayC梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-31-node-share.htm" title="Free ClashN - 10月31日21.7M/S|免费Shadowrocket节点/Clash节点/Singbox节点/V2ray节点/SSR节点节点推荐，V2rayC梯子购买推荐">Free ClashN - 10月31日21.7M/S|免费Shadowrocket节点/Clash节点/Singbox节点/V2ray节点/SSR节点节点推荐，V2rayC梯子购买推荐</a></li>
                         <li class="py-2"><a href="/free-nodes/2025-11-6-clash-v2ray-ss-ssr.htm" title="Free ClashN - 11月6日19.6M/S|免费V2ray节点/Shadowrocket节点/SSR节点/Singbox节点/Clash节点节点推荐，V2rayC梯子购买推荐">Free ClashN - 11月6日19.6M/S|免费V2ray节点/Shadowrocket节点/SSR节点/Singbox节点/Clash节点节点推荐，V2rayC梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-7-clash-v2ray-ss-ssr.htm" title="Free ClashN - 10月7日18.7M/S|免费V2ray节点/Shadowrocket节点/Clash节点/Singbox节点/SSR节点节点推荐，V2rayC梯子购买推荐">Free ClashN - 10月7日18.7M/S|免费V2ray节点/Shadowrocket节点/Clash节点/Singbox节点/SSR节点节点推荐，V2rayC梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-18-clash-node-github.htm" title="Free ClashN - 11月18日21.1M/S|免费Clash节点/V2ray节点/Shadowrocket节点/SSR节点/Singbox节点节点推荐，V2rayC梯子购买推荐">Free ClashN - 11月18日21.1M/S|免费Clash节点/V2ray节点/Shadowrocket节点/SSR节点/Singbox节点节点推荐，V2rayC梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-10-19-clash-node-github.htm" title="Free ClashN - 10月19日19.6M/S|免费SSR节点/Clash节点/V2ray节点/Shadowrocket节点/Singbox节点节点推荐，V2rayC梯子购买推荐">Free ClashN - 10月19日19.6M/S|免费SSR节点/Clash节点/V2ray节点/Shadowrocket节点/Singbox节点节点推荐，V2rayC梯子购买推荐</a></li>
                         <li class="py-2"><a href="/free-nodes/2025-11-2-clash-verge-rev-github.htm" title="Free ClashN - 11月2日19.8M/S|免费Shadowrocket节点/SSR节点/V2ray节点/Clash节点/Singbox节点节点推荐，V2rayC梯子购买推荐">Free ClashN - 11月2日19.8M/S|免费Shadowrocket节点/SSR节点/V2ray节点/Clash节点/Singbox节点节点推荐，V2rayC梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-21-clash-node-github.htm" title="Free ClashN - 10月21日22M/S|免费Shadowrocket节点/Clash节点/V2ray节点/Singbox节点/SSR节点节点推荐，V2rayC梯子购买推荐">Free ClashN - 10月21日22M/S|免费Shadowrocket节点/Clash节点/V2ray节点/Singbox节点/SSR节点节点推荐，V2rayC梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-15-node-share.htm" title="Free ClashN - 10月15日19M/S|免费Clash节点/SSR节点/Singbox节点/Shadowrocket节点/V2ray节点节点推荐，V2rayC梯子购买推荐">Free ClashN - 10月15日19M/S|免费Clash节点/SSR节点/Singbox节点/Shadowrocket节点/V2ray节点节点推荐，V2rayC梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-16-clash-verge-rev-node-github.htm" title="Free ClashN - 10月16日22.9M/S|免费Singbox节点/Shadowrocket节点/Clash节点/SSR节点/V2ray节点节点推荐，V2rayC梯子购买推荐">Free ClashN - 10月16日22.9M/S|免费Singbox节点/Shadowrocket节点/Clash节点/SSR节点/V2ray节点节点推荐，V2rayC梯子购买推荐</a></li>
                     </ul>
     </div>
 </div>
@@ -433,7 +433,7 @@ V2Ray是开源免费软件，但使用谷歌云服务器需支付相应的租金
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">11</span> <a href="/date/2025-11/" title="2025-11 归档">2025-11</a></h4>
+                <h4><span class="badge" style="float: right;">18</span> <a href="/date/2025-11/" title="2025-11 归档">2025-11</a></h4>
             </li>
                         <li class="py-2">
                 <h4><span class="badge" style="float: right;">26</span> <a href="/date/2025-10/" title="2025-10 归档">2025-10</a></h4>
