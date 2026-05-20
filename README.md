@@ -1,4 +1,4 @@
-# Free ClashN - 5月13日19.9M/S|免费Singbox节点/SSR节点/Clash节点/Shadowrocket节点/V2ray节点节点推荐，V2rayC梯子购买推荐  更新时间 2026-05-13 10:11:50
+# Free ClashN - 5月20日20.3M/S|免费Singbox节点/Clash节点/SSR节点/V2ray节点/Shadowrocket节点节点推荐，V2rayC梯子购买推荐  更新时间 2026-05-20 09:37:17
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://freeclashn.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：
@@ -9,23 +9,23 @@
 
 ### 免费Clash节点订阅链接
 
-- https://freeclashn.github.io/uploads/2026/05/0-20260513.yaml
-- https://freeclashn.github.io/uploads/2026/05/1-20260513.yaml
-- https://freeclashn.github.io/uploads/2026/05/2-20260513.yaml
-- https://freeclashn.github.io/uploads/2026/05/3-20260513.yaml
-- https://freeclashn.github.io/uploads/2026/05/4-20260513.yaml
+- https://freeclashn.github.io/uploads/2026/05/0-20260520.yaml
+- https://freeclashn.github.io/uploads/2026/05/1-20260520.yaml
+- https://freeclashn.github.io/uploads/2026/05/2-20260520.yaml
+- https://freeclashn.github.io/uploads/2026/05/3-20260520.yaml
+- https://freeclashn.github.io/uploads/2026/05/4-20260520.yaml
 
 ### 免费V2ray节点订阅链接
 
-- https://freeclashn.github.io/uploads/2026/05/0-20260513.txt
-- https://freeclashn.github.io/uploads/2026/05/1-20260513.txt
-- https://freeclashn.github.io/uploads/2026/05/2-20260513.txt
-- https://freeclashn.github.io/uploads/2026/05/3-20260513.txt
-- https://freeclashn.github.io/uploads/2026/05/4-20260513.txt
+- https://freeclashn.github.io/uploads/2026/05/0-20260520.txt
+- https://freeclashn.github.io/uploads/2026/05/1-20260520.txt
+- https://freeclashn.github.io/uploads/2026/05/2-20260520.txt
+- https://freeclashn.github.io/uploads/2026/05/3-20260520.txt
+- https://freeclashn.github.io/uploads/2026/05/4-20260520.txt
 
 ### 免费Sing-box节点订阅链接
 
-- https://freeclashn.github.io/uploads/2026/05/20260513.json
+- https://freeclashn.github.io/uploads/2026/05/20260520.json
 
 ## 更多Clash节点订阅 ：
 
